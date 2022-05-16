@@ -4,9 +4,9 @@ using namespace std;
 int main(){
 char symbol; int a, b;
 
-cout << "Enter symbol = ";
+cout << "Enter a symbol (+ or - or * or /): ";
 cin >> symbol;
-cout << "Enter value number 1 and number 2 "<<endl;
+cout << "Enter two values: "<<endl;
 cin >>a >>b;
 
 switch (symbol){
@@ -23,6 +23,6 @@ switch (symbol){
     cout<<" a / b = "<< a/b; 
     break;
   default:
-    cout<<"wrong symbol input " ;
+    cout<<"Invalid symbol, please enter again." ;
   }
 }
