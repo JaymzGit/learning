@@ -1,14 +1,13 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
+int main(){
 	float w, h;
 	string name, gender;
 	int age;
 
-  cout << "DZ Fitness BMI Calculator" << endl;
-  cout << "========================" << endl;
+	cout << "DZ Fitness BMI Calculator" << endl;
+	cout << "========================" << endl;
 
 	for(int i = 0; i < 5; i++) {
         cout<<"Enter your name: ";
@@ -31,7 +30,7 @@ int main()
         cout<<"Your BMI is : "<< bmi << endl;
 
         if(bmi <= 18.5) {
-		    cout<<"Your BMI is UNDERWEIGHT" << endl << endl;
+ 	    cout<<"Your BMI is UNDERWEIGHT" << endl << endl;
         } else if(bmi >= 18.5 && bmi <= 24.9) {
             cout<<"Your BMI is NORMAL" << endl << endl;
         } else if(bmi >= 25.0 && bmi <= 29.9) {
@@ -40,6 +39,6 @@ int main()
             cout<<"Your BMI is OBESE" << endl << endl;
         } else if(bmi >= 35.0){
             cout<<"Your BMI is EXTREMELY OBESE" << endl << endl;
-	      }
+	}
       }
     }
