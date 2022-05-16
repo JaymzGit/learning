@@ -1,4 +1,3 @@
-//Using if-else-if method
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -20,6 +19,9 @@ int main() {
       flag = false;
     } else if (result == 's') {
       discount_percentage = 0.1;
+      flag = false;
+    } else if (result == 'x') {
+      discount_percentage = 0.0;
       flag = false;
     } else {
       printf("Invalid code, please enter again. \n");
