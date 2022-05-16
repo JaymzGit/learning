@@ -11,13 +11,17 @@ cin >>a >>b;
 
 switch (symbol){
   case	'+':
-    cout<<" a + b = "<< a+b; break;
+    cout<<" a + b = "<< a+b; 
+    break;
   case	'-':
-    cout<<" a - b = "<< a-b; break;
+    cout<<" a - b = "<< a-b; 
+    break;
   case	'*':
-    cout<<" a * b = "<< a*b; break;
+    cout<<" a * b = "<< a*b; 
+    break;
   case	'/':
-    cout<<" a / b = "<< a/b; break;
+    cout<<" a / b = "<< a/b; 
+    break;
   default:
     cout<<"wrong symbol input " ;
   }
